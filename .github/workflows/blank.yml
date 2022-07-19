@@ -37,5 +37,4 @@ jobs:
       - name: update Ubuntu
         run: |
            apt update,
-           apt upgrade -y,
-           reboot now
+           apt upgrade -y
