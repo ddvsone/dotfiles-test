@@ -38,3 +38,7 @@ jobs:
         run: |
            apt update,
            apt upgrade -y
+
+      # Stuff I added to commands
+      - name: Install Packages
+        run: apt install neofetch qemu-guest-agent xclip
